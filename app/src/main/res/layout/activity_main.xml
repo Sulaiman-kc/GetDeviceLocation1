@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.getdevicelocation.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text"
+            android:textColorHint="@android:color/white"
+            android:textSize="28dp"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="20"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/white"
+            android:hint="Phone Number"
+            android:textSize="28dp"
+            android:inputType="phone"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="10"
+            app:met_minCharacters="10"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/white"
+            android:hint="Product"
+            android:textSize="28dp"
+            android:inputType="text"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="20"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            />
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/white"
+            android:hint="Quantity"
+            android:textSize="28dp"
+            android:inputType="number"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="20"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/location"
+                android:layout_width="269dp"
+                android:layout_height="wrap_content"
+                android:hint="Location"
+                android:inputType="text"
+                android:textColorHint="@android:color/white"
+                android:textSize="28dp"
+                app:met_baseColor="@android:color/white"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@android:color/white"
+                app:met_singleLineEllipsis="true" />
+
+
+            <Button
+                android:id="@+id/getLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="get location"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/Order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Make Order"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

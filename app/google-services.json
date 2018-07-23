@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "889025357633",
+    "firebase_url": "https://getdevicelocation-660d6.firebaseio.com",
+    "project_id": "getdevicelocation-660d6",
+    "storage_bucket": "getdevicelocation-660d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889025357633:android:d63efc85f808522e",
+        "android_client_info": {
+          "package_name": "com.example.getdevicelocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889025357633-2shmeo8c4ai4mgnn9l6mshj0l786frul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.getdevicelocation",
+            "certificate_hash": "96d046519d9120948789fee174cf4d0b1232744f"
+          }
+        },
+        {
+          "client_id": "889025357633-qhii4fje0t09b81q4vo5osjavfh2v77s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3bjY15EtLXAJUDYpUJHamhW5cHWjMUEA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889025357633-qhii4fje0t09b81q4vo5osjavfh2v77s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
